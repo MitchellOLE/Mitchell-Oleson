@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitchell Oleson - Mechanical Engineering Student</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #00509e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #003366;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mitchell Oleson</h1>
+        <p>Third Year Mechanical Engineering Student at Miami University, Oxford, Ohio</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Mitchell Oleson, a dedicated and passionate third-year Mechanical Engineering student at Miami University in Oxford, Ohio. My interests lie in the areas of design, manufacturing, and robotics. I am constantly seeking opportunities to apply my skills in practical and impactful ways.</p>
+    </div>
+    <div class="container" id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li>Design and Development of an Autonomous Robot for the XYZ Competition</li>
+            <li>3D Modeling and Simulation of a Suspension System</li>
+            <li>Optimization of a Heat Exchanger for Improved Efficiency</li>
+        </ul>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please feel free to reach out via email:</p>
+        <p>Email: mitchell.oleson@example.com</p>
+    </div>
+    <footer>
+        &copy; 2024 Mitchell Oleson. All rights reserved.
+    </footer>
+</body>
+</html>
